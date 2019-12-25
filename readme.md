@@ -11,7 +11,7 @@ npm i ip2integer
 > For general usage import module
 
 ```
-import ip2int from 'emreacar/ip2int'
+import ip2int from 'ip2integer'
 ```
 
 > For convert ip to integer
