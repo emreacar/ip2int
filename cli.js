@@ -2,7 +2,15 @@
 const ip2int = require('./index.js')
 
 const ipAddr = process.argv[2]
-const toInt = ip2int.toInt(ipAddr)
-const toIp = ip2int.toIp(toInt)
+const fromRange = process.argv[3] || false
 
-process.stdout.write(toIp + ' == ' + toInt + '\n')
+if(fromRange) {
+  const ranges = ip2int.fromRange(ipAddr)
+
+  process.stdout.write(ipAddr + '= START RANGE: ' + ranges.start + ' END RANGE: ' + ranges.end + '\n')
+}else{
+  const toInt = ip2int.toInt(ipAddr)
+  const toIp = ip2int.toIp(toInt)
+  process.stdout.write(toIp + ' == ' + toInt + '\n')
+}
+
