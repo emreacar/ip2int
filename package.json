@@ -26,5 +26,13 @@
     "addressess"
   ],
   "author": "Emre Acar",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emreacar/ip2int.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emreacar/ip2int/issues"
+  },
+  "homepage": "https://github.com/emreacar/ip2int"
 }
