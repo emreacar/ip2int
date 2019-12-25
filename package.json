@@ -1,5 +1,5 @@
 {
-  "name": "ip2int",
+  "name": "ip2integer",
   "version": "1.0.0",
   "description": "Convert IP addresses to comparable integers.",
   "main": "index.js",
@@ -14,16 +14,10 @@
   },
   "keywords": [
     "ip2int",
-    "conver",
-    "ip",
-    "to",
-    "integer",
-    "ip",
-    "to",
-    "integer",
-    "compare",
-    "ip",
-    "addressess"
+    "convert ip",
+    "integer ip",
+    "ip ranges",
+    "compare ip addressess"
   ],
   "author": "Emre Acar",
   "license": "ISC",
