@@ -2,6 +2,9 @@
 > Convert ip addresses to comparable integers and create ip ranges from string
 
 ## INSTALL
+```
+npm i ip2integer
+```
 
 ## USAGE
 
