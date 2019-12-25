@@ -1,0 +1,30 @@
+{
+  "name": "ip2int",
+  "version": "1.0.0",
+  "description": "Convert IP addresses to comparable integers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "bin": {
+    "ip2int": "cli.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "ip2int",
+    "conver",
+    "ip",
+    "to",
+    "integer",
+    "ip",
+    "to",
+    "integer",
+    "compare",
+    "ip",
+    "addressess"
+  ],
+  "author": "Emre Acar",
+  "license": "ISC"
+}
