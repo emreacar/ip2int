@@ -1,6 +1,6 @@
 {
   "name": "ip2integer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert IP addresses to comparable integers.",
   "main": "index.js",
   "scripts": {
