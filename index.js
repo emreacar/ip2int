@@ -21,7 +21,7 @@ function toInt(ip) {
 function toIp(part) {
   let parts = [];
 
-  parts.push( part>>24 )
+  parts.push( part>>24 & 255 )
   parts.push( part>>16 & 255)
   parts.push( part>>8 & 255)
   parts.push( part & 255)

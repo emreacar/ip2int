@@ -11,6 +11,6 @@ if(fromRange) {
 }else{
   const toInt = ip2int.toInt(ipAddr)
   const toIp = ip2int.toIp(toInt)
-  process.stdout.write(toIp + ' == ' + toInt + '\n')
+  process.stdout.write('INPUT: ' + ipAddr + ' => ' + toIp + ' == ' + toInt + '\n')
 }
 
